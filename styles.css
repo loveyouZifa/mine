@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-image: url('bg1.jfif');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 30px 30px 8px;
+    background-size: cover;
+}
+.main{
+    background: linear-gradient(135deg , rgba(255,255,255,0.1) , rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(10px); */
+    border-radius: 20px ;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.25) ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+}
+.main h1{
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    font-size: 90px;
+    text-align: center;
+}
+.main h2{
+    color: #ffffff;
+    font-family: "AlponaLohit", cursive;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.mn-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mn-img img{
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mn-txt{
+    padding: 10px;
+    background: linear-gradient(135deg , rgba(255, 0, 0, 0.199) , rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.mn-txt p{
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Noto Serif Bengali', sans-serif;
+    font-size: larger;
+}
