@@ -34,7 +34,7 @@
 }
 .main h2{
     color: #ffffff;
-    font-family: "AlponaLohit", cursive;
+    font-family: "AlponaLohit", 'Noto Serif Bengali' , cursive;
     font-size: 50px;
     text-align: center;
     padding: 30px;
